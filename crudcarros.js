@@ -1,20 +1,20 @@
 let vehicles=[
-//     {
-//     id: 1,
-//     marca: 'mazda',
-//     modelo: '3',
-//     color: 'negro',
-//     año: '2020',
-//     precio: '2.000.000',
-// },
-// {   id: 2,
-//     marca: 'mazda',
-//     modelo: '6',
-//     color: 'rojo',
-//     año: '2019',
+    {
+    id: 1,
+    marca: 'mazda',
+    modelo: '3',
+    color: 'negro',
+    año: '2020',
+    precio: '2.000.000',
+},
+{   id: 2,
+    marca: 'mazda',
+    modelo: '6',
+    color: 'rojo',
+    año: '2019',
 
-//     precio: '22.000.000',
-// }
+    precio: '22.000.000',
+}
 ]
 let edit = 0;
 function TableVehicles(){

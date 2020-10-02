@@ -6,8 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    
-        <table id="table-users"class="table table-hover table-dark .ml-3">
+  <section class="container-fluid+ border Mr-5 Ml-5">
+    <div  class="row">
+      <div class="col-5">
+      <img class="" style="width:100%; height:50%;" src="/img/2016-chevrolet-camaro-044_1.jpg" alt="">
+      <img class="" style="width:100%; height:50%;" src="/img/logo.jpg" alt="">  
+    </div>
+    <div class="col-7  text-center">
+      <h1 class="font-weight-bold">CRUD VEHICULOS</h1>
+        <table id="table-users"class="col-md table table-hover table-dark .ml-10">
           <thead>
             <tr>
                 <td class="font-weight-bold">Marca</td>
@@ -20,44 +27,49 @@
             </tr>
           </thead>
           <tbody id="body-table-users">
-           
+        
           </tbody>
         </table>
+         
     <div class="container">
         <form onsubmit="event.preventDefault(), addEditUser()" action="/users">
            <div class="form-group row">
-            <label for="marca" class="col-sm-2 col-form-label">Marca</label>
+            <label for="marca" class="col-sm-2 col-form-label font-weight-bold">Marca</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="marca" placeholder="ingrese la marca del vehiculo.">
             </div>
           </div>
           <div class="form-group row">
-            <label for="modelo" class="col-sm-2 col-form-label">Modelo</label>
+            <label for="modelo" class="col-sm-2 col-form-label font-weight-bold">Modelo</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="modelo" placeholder="ingrese el modelo del vehiculo.">
             </div>
           </div>
           <div class="form-group row">
-            <label for="color" class="col-sm-2 col-form-label">Color</label>
+            <label for="color" class="col-sm-2 col-form-label font-weight-bold">Color</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="color" placeholder="ingrese el color del vehiculo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="año" class="col-sm-2 col-form-label">Año</label>
+            <label for="año" class="col-sm-2 col-form-label font-weight-bold">Año</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="año" placeholder="ingrese el año del vehiculo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="precio" class="col-sm-2 col-form-label">Precio</label>
+            <label for="precio" class="col-sm-2 col-form-label font-weight-bold">Precio</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="precio" placeholder="ingrese el precio del vehiculo">
             </div>
           </div>
-          <button type="submit" class="btn btn-primary mb-2">submit</button>
+          <button type="submit" class="btn btn-primary mb-2">Agregar/editar</button>
         </form>
       </div>
+    </div> 
+  </div>
+
+  </section> 
 </body>
 <script src="crudcarros.js"></script>
 </html>
