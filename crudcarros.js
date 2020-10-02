@@ -36,7 +36,7 @@ function TableVehicles(){
                             </button>
                         </td>
                         <td>
-                            <button class="btn btn-warning" onclick="editUserButton(${u.id})">
+                            <button class="btn btn-outline-success" onclick="editUserButton(${u.id})">
                                 Editar
                             </button>
                         </td>
