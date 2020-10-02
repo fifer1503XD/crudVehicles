@@ -12,6 +12,7 @@ let vehicles=[
 //     modelo: '6',
 //     color: 'rojo',
 //     año: '2019',
+
 //     precio: '22.000.000',
 // }
 ]
