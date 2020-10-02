@@ -1,4 +1,5 @@
-// let vehicles=[{
+let vehicles=[
+//     {
 //     id: 1,
 //     marca: 'mazda',
 //     modelo: '3',
@@ -13,7 +14,7 @@
 //     año: '2019',
 //     precio: '22.000.000',
 // }
-// ]
+]
 let edit = 0;
 function TableVehicles(){
 
