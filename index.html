@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+        <table id="table-users"class="table table-hover table-dark .ml-3">
+          <thead>
+            <tr>
+                <td class="font-weight-bold">Marca</td>
+                <td class="font-weight-bold">Modelo</td>
+                <td class="font-weight-bold">color</td>
+                <td class="font-weight-bold">año</td>
+                <td class="font-weight-bold">precio</td>
+                <td class="font-weight-bold">Opciones</td>
+                <td class="font-weight-bold">Opciones2</td>
+            </tr>
+          </thead>
+          <tbody id="body-table-users">
+           
+          </tbody>
+        </table>
+    <div class="container">
+        <form onsubmit="event.preventDefault(), addEditUser()" action="/users">
+           <div class="form-group row">
+            <label for="marca" class="col-sm-2 col-form-label">Marca</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="marca" placeholder="ingrese la marca del vehiculo.">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="modelo" class="col-sm-2 col-form-label">Modelo</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="modelo" placeholder="ingrese el modelo del vehiculo.">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="color" class="col-sm-2 col-form-label">Color</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="color" placeholder="ingrese el color del vehiculo">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="año" class="col-sm-2 col-form-label">Año</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="año" placeholder="ingrese el año del vehiculo">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="precio" class="col-sm-2 col-form-label">Precio</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="precio" placeholder="ingrese el precio del vehiculo">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">submit</button>
+        </form>
+      </div>
+</body>
+<script src="crudcarros.js"></script>
+</html>
